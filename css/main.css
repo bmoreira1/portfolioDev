@@ -1,0 +1,102 @@
+main {
+  color: #fff;
+}
+
+.container-main {
+  max-width: 1400px;
+  margin: 8rem auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+  gap: 15rem;
+}
+
+.conteudo-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.conteudo-1 h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.conteudo-1 p {
+  font-size: 1.3rem;
+  text-align: justify;
+  width: 55ch;
+  line-height: 1.225;
+}
+
+.conteudo-1 a {
+  background-color: #00ff08;
+  width: fit-content;
+  padding: .5rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.conteudo-1 a:hover {
+  background-color: #007904;
+  transition: .2s;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-2 {
+  background-color: #00ff08;
+  position: relative;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 10rem rgb(18, 216, 0);
+}
+
+.conteudo-2::before,
+.conteudo-2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #00ff08;
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+}
+
+.conteudo-2::before {
+  z-index: -1;
+}
+
+.conteudo-2 img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.conteudo-2{
+  position: relative;
+  animation: flutter 2s ease-in-out infinite alternate;
+}
+@keyframes flutter {
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 30px;
+  }
+}
