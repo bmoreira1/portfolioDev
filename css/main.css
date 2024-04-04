@@ -3,7 +3,7 @@ main {
 }
 
 .container-main {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 8rem auto 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -19,8 +19,9 @@ main {
 }
 
 .conteudo-1 h1 {
-  font-size: 4rem;
-  line-height: 1.125;
+  font-size: 3.5rem;
+  line-height: 1.225;
+  text-transform: uppercase;
 }
 
 .conteudo-1 p {

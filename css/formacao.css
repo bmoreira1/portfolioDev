@@ -1,12 +1,11 @@
 .container-formacao {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto 2rem auto;
   box-sizing: border-box;
-}
 
-.container-formacao h1 {
-    font-size: 6rem;
-    color: #808080;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .descricao-formacao {
@@ -27,17 +26,20 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.info-formacao {
-    background-color: #000;
+@media (max-width: 1100px) {
+    .conteudo-formacao {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .faculdade {
-    background-color: #000;
+    /* background-color: red; */
     padding: 1rem;
     gap: .7rem;
     display: flex;
     flex-direction: column;
-    border: 1rem solid #1b1b1b;
+    border: 1rem solid #001;
 }
 
 .faculdade .h3 {
@@ -57,14 +59,15 @@
 }
 
 .cursos {
-    padding: 2rem;
-    background-color: #1b1b1b;
+    padding: 1rem 2.6rem;
+    background-color: #001;
     color: #808080;
 
 }
 
 .cursos h2{
     position: relative;
+
 }
 
 .cursos h2::before {
@@ -76,6 +79,10 @@
     left: -1.8rem; 
     top: 0; 
     background: url("../img/icons/cursos.svg") no-repeat center center;
+}
+
+.cursos ul {
+    padding: 0 1rem;
 }
 
 .cursos ul li{
@@ -92,8 +99,8 @@
 }
 
 .idiomas {
-    background-color: #1b1b1b;
-    padding: 2rem;
+    background-color: #001;
+    padding: 1rem 2.6rem;
 }
 
 .idiomas h2 {
@@ -116,6 +123,7 @@
     display: flex;
     margin-top: 1rem;
     font-size: 1.4rem;
+    padding: 0 1rem;
 }
 
 .idiomas ul span {
