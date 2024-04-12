@@ -26,7 +26,7 @@ main {
 }
 
 .conteudo-1 p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: justify;
   width: 55ch;
   line-height: 1.225;
@@ -39,6 +39,18 @@ main {
 
   .conteudo-1 p {
     width: 45ch;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 569px) {
+  .conteudo-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .conteudo-1 p {
+    width: 38ch;
+    font-size: 1.2rem;
   }
 }
 
