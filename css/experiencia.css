@@ -10,6 +10,7 @@
     gap: 3.8rem;
     margin-top: 2rem;
     flex-wrap: wrap;
+    border-left: 1px solid #fff;
 }
 
 .item-experiencia {

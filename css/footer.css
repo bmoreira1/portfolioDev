@@ -1,0 +1,44 @@
+footer {
+  background-color: #000;
+}
+
+.container-footer {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.top-footer ul {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.nav-footer ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-footer ul li a{
+    color: #fff;
+}
+
+.bottom-footer {
+  border-top: 1px solid #fff;
+  margin: 1rem 2rem;
+}
+
+.bottom-footer ul {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.bottom-footer .bi {
+  font-size: 3rem;
+  color: #00ff08;
+}
