@@ -34,7 +34,7 @@ main {
 
 @media (max-width: 669px) {
   .container-main {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   }
 
   .conteudo-1 h1 {
