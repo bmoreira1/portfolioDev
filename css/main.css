@@ -8,7 +8,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10rem;
-  gap: 15rem;
+  gap: 5rem;
+  justify-content: center;
 }
 
 .conteudo-1 {
@@ -31,6 +32,16 @@ main {
   line-height: 1.225;
 }
 
+@media (max-width: 669px) {
+  .conteudo-1 h1 {
+    font-size: 3rem;
+  }
+
+  .conteudo-1 p {
+    width: 45ch;
+  }
+}
+
 .conteudo-1 a {
   background-color: #00ff08;
   width: fit-content;
@@ -46,6 +57,13 @@ main {
   background-color: #007904;
   transition: .2s;
 }
+
+@media (min-width:769px) {
+  .conteudo-1 a {
+    display: none;
+  }
+}
+
 
 .container-img {
     display: flex;
