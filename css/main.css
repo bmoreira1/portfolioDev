@@ -4,10 +4,9 @@ main {
 
 .container-main {
   max-width: 1300px;
-  margin: 8rem auto 0 auto;
+  margin: 8rem auto 10rem auto;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10rem;
   gap: 5rem;
   justify-content: center;
 }

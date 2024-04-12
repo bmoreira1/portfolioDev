@@ -28,3 +28,9 @@ h1, h2, h3, a, p, ul {
     text-transform: uppercase;
     border-bottom: 1px solid #fff;
 }
+
+@media (max-width: 769px) {
+    .title-section {
+        font-size: 2.3rem;
+    }
+}
