@@ -33,6 +33,10 @@ main {
 }
 
 @media (max-width: 669px) {
+  .container-main {
+  margin-bottom: 2rem;
+  }
+
   .conteudo-1 h1 {
     font-size: 3rem;
   }
