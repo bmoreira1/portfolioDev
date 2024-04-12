@@ -67,14 +67,14 @@
   @media (max-width: 569px) {
     .descricao-formacao p {
       font-size: 1.2rem;
-      width: 34ch;
+      width: 31ch;
     }
   }
 
   @media (max-width: 500px) {
     .descricao-formacao p {
       font-size: 1rem;
-      width: 35ch;
+      width: 27ch;
     }
   }
 
