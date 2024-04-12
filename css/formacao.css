@@ -134,6 +134,7 @@
 
 .cursos h2 {
   position: relative;
+  text-transform: uppercase;
 }
 
 .cursos h2::before {
@@ -170,6 +171,7 @@
 .idiomas h2 {
   color: #808080;
   position: relative;
+  text-transform: uppercase;
 }
 
 .idiomas h2::before {
