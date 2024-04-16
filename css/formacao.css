@@ -31,56 +31,6 @@
   padding: 1rem;
 }
 
-@media (max-width: 769px) {
-.container-formacao{
-  margin: 7rem auto 0 auto;
-}
-  .descricao-formacao i {
-    font-size: 2.5rem;
-  }
-}
-
-.descricao-formacao p {
-  font-size: 1.5rem;
-  text-align: justify;
-  width: 65ch;
-  line-height: 1.225;
-}
-
-@media (max-width: 969px) {
-  .descricao-formacao p {
-    width: 45ch;
-  }
-}
-
-@media (max-width: 769px) {
-  .descricao-formacao p {
-    font-size: 1.3rem;
-    width: 40ch;
-  }
-}
-
-@media (max-width: 650px) {
-    .descricao-formacao p {
-      font-size: 1.3rem;
-      width: 35ch;
-    }
-  }
-
-  @media (max-width: 569px) {
-    .descricao-formacao p {
-      font-size: 1.2rem;
-      width: 31ch;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .descricao-formacao p {
-      font-size: 1rem;
-      width: 27ch;
-    }
-  }
-
 .info-formacao {
   background-color: #08080865;
   justify-content: center;
@@ -192,38 +142,79 @@
   padding: 0 1rem;
 }
 
-@media (max-width: 769px){
-    .nome-faculdade i {
-        font-size: 2.5rem;
-      }
-
-    .cursos ul li {
-        font-size: 1.1rem;
-        margin: 1rem 0;
-    }
-
-    .cursos h2 {
-        font-size: 1.5rem;
-    }
-
-    .faculdade, h3 {
-        font-size: 1.1rem;
-    }
-
-    .nome-faculdade p {
-        font-size: 1.2rem;
-        text-transform: uppercase;
-    }
-
-    .idiomas h2 {
-        font-size: 1.5rem;
-    }
-
-    .idiomas ul {
-        font-size: 1.1rem;
-    }
-}
-
 .idiomas ul span {
   color: #808080;
+}
+
+@media (max-width: 969px) {
+  .descricao-formacao p {
+    width: 43ch;
+  }
+}
+
+@media (max-width: 769px) {
+  .container-formacao {
+    margin: 7rem auto 0 auto;
+  }
+  .descricao-formacao i {
+    font-size: 2.5rem;
+  }
+
+  .descricao-formacao p {
+    font-size: 1.3rem;
+    text-align: justify;
+    width: 45ch;
+    line-height: 1.225;
+  }
+
+  .nome-faculdade i {
+    font-size: 2.5rem;
+  }
+
+  .cursos ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
+
+  .cursos h2 {
+    font-size: 1.5rem;
+  }
+
+  .faculdade h3 {
+    font-size: 1.1rem;
+  }
+
+  .nome-faculdade p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .idiomas h2 {
+    font-size: 1.5rem;
+  }
+
+  .idiomas ul {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .descricao-formacao p {
+    font-size: 1.3rem;
+    width: 35ch;
+  }
+}
+
+@media (max-width: 569px) {
+  .descricao-formacao p {
+    font-size: 1.2rem;
+    width: 31ch;
+  }
+}
+
+@media (max-width: 500px) {
+  .descricao-formacao p {
+    font-size: 1rem;
+    width: 27ch;
+  }
 }

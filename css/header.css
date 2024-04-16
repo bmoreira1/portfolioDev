@@ -21,13 +21,6 @@ header {
     z-index: 1000;  
 }
 
-@media (max-width: 599px) {
-    .container-header {
-        flex-direction: column;
-        gap: 1rem;
-    }
-}
-
 .list-header{
     display: flex;
     gap: 3rem;
@@ -78,5 +71,12 @@ header {
 @media (max-width: 769px){
     .container-header .contato{
         display: none;
+    }
+}
+
+@media (max-width: 599px) {
+    .container-header {
+        flex-direction: column;
+        gap: 1rem;
     }
 }

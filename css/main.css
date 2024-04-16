@@ -27,40 +27,14 @@ main {
 .conteudo-1 p {
   font-size: 1.5rem;
   text-align: justify;
-  width: 55ch;
+  max-width: 55ch;
   line-height: 1.225;
-}
-
-@media (max-width: 669px) {
-  .container-main {
-  margin-bottom: 0;
-  }
-
-  .conteudo-1 h1 {
-    font-size: 3rem;
-  }
-
-  .conteudo-1 p {
-    width: 45ch;
-    font-size: 1.3rem;
-  }
-}
-
-@media (max-width: 569px) {
-  .conteudo-1 h1 {
-    font-size: 2.5rem;
-  }
-
-  .conteudo-1 p {
-    width: 31ch;
-    font-size: 1.2rem;
-  }
 }
 
 .conteudo-1 a {
   background-color: #00ff08;
   width: fit-content;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 1rem;
   font-weight: 600;
   color: #000;
@@ -70,20 +44,13 @@ main {
 
 .conteudo-1 a:hover {
   background-color: #007904;
-  transition: .2s;
+  transition: 0.2s;
 }
-
-@media (min-width:769px) {
-  .conteudo-1 a {
-    display: none;
-  }
-}
-
 
 .container-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .conteudo-2 {
@@ -121,16 +88,47 @@ main {
   object-fit: cover;
 }
 
-
-.conteudo-2{
+.conteudo-2 {
   position: relative;
   animation: flutter 2s ease-in-out infinite alternate;
 }
 @keyframes flutter {
-  0%{
+  0% {
     top: 0;
   }
-  100%{
+  100% {
     top: 30px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container-main {
+    margin-bottom: 0;
+  }
+
+  .conteudo-1 a {
+    display: none;
+  }
+
+  .conteudo-1 h1 {
+    font-size: 3rem;
+  }
+
+  .conteudo-1 p {
+    max-width: 45ch;
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 569px) {
+  .conteudo-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .conteudo-1 p {
+    width: 31ch;
+    font-size: 1.2rem;
   }
 }
