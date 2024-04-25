@@ -128,7 +128,8 @@ main {
   }
 
   .conteudo-1 p {
-    width: 31ch;
+    width: 32ch;
     font-size: 1.2rem;
+    text-align: left;
   }
 }

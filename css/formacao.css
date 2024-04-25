@@ -3,7 +3,6 @@
   margin: 18rem auto 2rem auto;
   box-sizing: border-box;
 
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,6 +28,10 @@
   font-size: 5rem;
   color: #000987;
   padding: 1rem;
+}
+
+.descricao-formacao p{
+  font-size: 1.3rem;
 }
 
 .info-formacao {
@@ -161,8 +164,7 @@
   }
 
   .descricao-formacao p {
-    font-size: 1.3rem;
-    text-align: justify;
+    text-align: left;
     width: 45ch;
     line-height: 1.225;
   }
@@ -200,7 +202,6 @@
 
 @media (max-width: 650px) {
   .descricao-formacao p {
-    font-size: 1.3rem;
     width: 35ch;
   }
 }
