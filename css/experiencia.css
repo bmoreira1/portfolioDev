@@ -98,7 +98,7 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 350px) {
   .item-experiencia p {
     font-size: 1rem;
     width: 31ch;
