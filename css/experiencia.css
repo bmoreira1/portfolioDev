@@ -39,7 +39,6 @@
 .item-experiencia h2 {
   font-size: 1.9rem;
   margin: 1rem 0;
-  flex: 1;
 }
 
 .item-experiencia h3 {
@@ -52,7 +51,6 @@
   margin-top: 2rem;
   font-size: 1.15rem;
   line-height: 1.225;
-  text-align: justify;
 }
 
 @media (max-width: 920px) {
