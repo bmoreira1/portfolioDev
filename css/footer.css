@@ -39,6 +39,12 @@ footer {
 }
 
 .bottom-footer i {
+  display: flex;
   font-size: 3rem;
   color: #00ff08;
+}
+
+.bottom-footer i:hover {
+  transform: scale(1.50);
+  transition: 0.3s;
 }

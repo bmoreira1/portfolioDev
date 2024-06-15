@@ -21,6 +21,7 @@
   flex-direction: column;
   flex: 1;
   padding: 1rem;
+  justify-content: space-between;
 }
 
 .item-experiencia:hover {
@@ -33,7 +34,20 @@
 .item-experiencia i {
   font-size: 4.5rem;
   color: #00ff08;
-  margin: 2rem 0;
+}
+
+.item-git {
+  display: flex;
+  margin: 2rem 0 0 1rem;
+}
+
+.item-git i {
+  font-size: 2.5rem;
+}
+
+.item-git i:hover{
+  transform: scale(2.00);
+  transition: 0.3s;
 }
 
 .item-experiencia h2 {
